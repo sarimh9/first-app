@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/monday"
+            style="@style/days"
+            android:text="@string/monday"
+            />
+        <View
+            style="@style/line"
+            />
+        <TextView
+            android:id="@+id/tuesday"
+            style="@style/days"
+            android:text="@string/tuesday"
+            />
+        <View
+            style="@style/line"
+            />
+        <TextView
+            android:id="@+id/wednesday"
+            style="@style/days"
+            android:text="@string/wednesday"
+            />
+        <View
+            style="@style/line"
+            />
+        <TextView
+            android:id="@+id/thursday"
+            style="@style/days"
+            android:text="@string/thursday"
+            />
+        <View
+            style="@style/line"
+            />
+        <TextView
+            android:id="@+id/friday"
+            style="@style/days"
+            android:text="@string/friday"
+            />
+        <View
+            style="@style/line"
+            />
+        <TextView
+            android:id="@+id/saturday"
+            style="@style/days"
+            android:text="@string/saturday"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
